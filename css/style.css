@@ -1,0 +1,125 @@
+/*в конце ссылки на шрифт добавляем &display=swap&subset=cyrillic-ext , если кириллица нужна. Если нет, то не надо добавлять*/
+@import url("https://fonts.googleapis.com/css?family=Nunito:regular,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,regular,600,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular");
+
+/* /* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	font-family: "Open Sans", sans-serif;
+	line-height: 1;
+	}
+/* ------------------------------ */
+header{
+	font-weight: 600;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.name {
+	font-family: "Nunito", sans-serif;
+	font-size: 31px;
+	color: #6d6e70;
+	font-weight: 500;
+}
+
+.menu {
+	color: #666666;
+}
+
+.login {
+	color: white;
+}
+
+.banner {}
+
+.text1 {}
+
+.buttoms {}
+
+.text2 {}
+
+.block {}
+
+.block1 {}
+
+.buttomblock1 {}
+
+.block2 {}
+
+.buttomblock2 {}
+
+.text3 {}
+
+.buttomtext3 {}
+
+.projects {}
+
+.project1 {}
+
+.imgproject1 {}
+
+.buttomproject {}
+
+.textproject {}
+
+.funded {}
+
+.days {}
+
+.details1 {}
+
+.project2 {}
+
+.imgproject2 {}
+
+.details2 {}
+
+.project3 {}
+
+.imgproject3 {}
+
+.details3 {}
+
+.text4 {}
+
+.H {}
+
+.comments {}
+
+.comment1 {}
+
+.cloud1 {}
+
+.comment2 {}
