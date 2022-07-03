@@ -1,0 +1,454 @@
+/*в конце ссылки на шрифт добавляем &display=swap&subset=cyrillic-ext , если кириллица нужна. Если нет, то не надо добавлять*/
+@import url("https://fonts.googleapis.com/css?family=Nunito:regular,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,regular,600,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular");
+
+/* /* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	/* по умолчанию */
+	/* font-size: 16px;  */
+}
+
+body {
+	line-height: 1;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/* ------------------------------ */
+header{
+	
+	background: white;
+	width: 100%;
+	height: 85px;
+	font-weight: 600;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 85px;
+	/* display: inline-block; */
+}
+
+.logo{
+	background: url("/img/logo\ crowdme.png") 120px 20px no-repeat;
+   display: inline-block;
+	height: 85px;
+	padding: 30px 120px 20px 165px ;
+	font-family: "Nunito", sans-serif;
+	font-size: 31px;
+	font-weight: 700;
+	color: #595959;
+	}
+
+
+
+.menu {
+	color: #666666;
+	/* display: inline-block; */
+}
+
+.menu-main{
+	margin: 0px 0px 0px 0px;
+	border: 1px solid #000;
+  display: inline-block;
+}
+
+.menu-main li{
+	display: inline-block;
+	margin: 0 15px;
+	color: #6d6e70;
+
+}
+
+.menu-main a {
+	/* display: inline-block; */
+	/* padding: 0 15px; */
+	color: rgba(109, 110, 112, 0.678);
+}
+
+.login {
+	
+	display: inline-block;
+}
+
+.login a{
+color: grey;
+
+}
+
+.banner {
+	color: white;
+	text-align: center;
+	height: 570px;
+	background: url("/img/banner.png") 0 0/100% auto no-repeat;
+	background-size: cover;
+}
+
+.banner h1 {
+	font-size: 45px;
+	font-weight: 600;
+	line-height: 77px;
+	padding: 169px 169px 0 169px;
+	margin: 0 0 25px 0;
+}
+.banner span{
+	font-size: 35px;
+	font-weight: 300;
+	display: block;
+}
+.banner a {
+	font-size: 19px;
+	font-weight: 600;
+	color: white;
+	display: inline-block;
+	background: #99c50a;
+	padding: 25px 35px;
+	border-radius: 10px;
+}
+.text1 {
+	text-align: center;
+	min-height: 630px;
+	background-color: #fff;
+	background-image: url("/img/Shape\ 846.png");
+	background-position: center 100px;
+	background-repeat: no-repeat;
+}
+
+.text1 h2{
+	font-size: 31px;
+	line-height: 50px;
+	color: #515151;
+	font-weight: 600;
+	text-transform: uppercase;
+	width: 900px;
+	margin: 0px auto;
+	padding: 190px 190px 25px 190px;
+}
+
+.text1 p {
+	font-size: 19px;
+	color: rgba(81, 81, 81, 0.71);
+	font-weight: regular;
+	line-height: 32px;
+	width: 950px;
+	margin: 0px auto;
+
+}
+.text1 >p{
+	padding: 30px 0 0 0;
+}
+
+
+
+.buttoms {
+	font-size: 33px;
+	font-weight: 300;
+	color: #656565;
+	display: inline-block;
+	height: 120px;
+	width: 100%;
+	background-color: #fff;
+	padding: 0px 165px;
+	border: 1px solid #000;
+}
+
+.number {
+	font-size: 20px;
+	/* color: white; */
+	font-weight: 600;
+	padding: 10px 15px;
+	border-radius: 50%;
+	background-color: #5f5f5f;
+	color: #fff;
+	margin: 15px 20px 0 50px;
+	overflow: hidden;
+
+}
+
+.textnumber__1,
+.textnumber__2,
+.textnumber__3{
+
+border: 1px solid rgb(224, 5, 5)214, 7, 7);
+}
+
+
+.buttoms div{
+	display: inline-block;
+	
+	/* padding: 10px; */
+}
+
+.border__1,
+.border__2,
+.border__3{
+border-bottom: 1px solid #d3d3d3;
+padding: 0 0 40px 0;
+}
+
+.border__1{
+
+}
+
+.border__2 {
+
+}
+
+.border__3 {
+
+}
+
+.text2 {
+	font-weight: normal;
+	min-height: 310px;
+		width: 100%;
+		background-color: #fff;
+		background-image: url("/img/glasses.png");
+			background-position: 250px 89px;
+			background-repeat: no-repeat;
+
+}
+
+.text2 h3{
+	font-size: 25px;
+	color: #add136;
+	padding: 65px 180px 25px 467px;
+}
+
+.text2 p {
+	font-size: 17px;
+	line-height: 30px;
+	color: rgba(96, 96, 96, 0.671);
+	padding: 0px 140px 110px 467px;
+}
+.blocks {
+	font-size: 0;
+}
+
+.block1 h4,
+.block2 h4 {
+font-family: "montserrat";
+font-size: 23px;
+font-weight: 600;
+color: #515151;
+text-transform: capitalize;
+
+}
+
+.block1 h4{
+padding: 45px 50px 25px 320px;
+}
+
+.block2 h4{
+	padding: 45px 50px 25px 245px;
+}
+
+.block1 p,
+.block2 p {
+font-size: 15px;
+font-weight: 400;
+color: #515151;
+
+line-height: 30px;
+/* text-shadow: 0.5px 0 0.2px #000; */
+}
+.block1 p{
+padding: 0 57px 25px 320px;
+}
+.block2 p{
+padding: 0 110px 25px 245px;
+}
+
+.block1 {
+display: inline-block;
+width: 50%;
+height: 305px;
+background-image: url(/img/sofa_and_light.png);
+background-position: 141px 80px;
+	background-repeat: no-repeat;
+	background-size: 133px 112px;
+vertical-align: top;
+background-color: #e2f8ff;
+
+}
+.block1 a,
+.block2 a{
+	display: inline-block;
+font-weight: 600;
+padding: 17px 25px;
+text-transform: capitalize;
+font-size: 13px;
+сolor: white;
+}
+
+
+.block2 {
+display: inline-block;
+	width: 50%;
+	height: 305px;
+	background-image: url(/img/money.png);
+		background-position: 74px 100px;
+		background-repeat: no-repeat;
+		background-size: 101px 92px;
+	overflow: auto;
+	vertical-align: top;
+	background-color: #f5f9eb;
+
+}
+
+.block1 a{
+	margin: 0 0 0 322px;
+	background-color: #26a6d1;
+	display: inline-block;
+	border-radius: 7px;
+}
+
+.block2 a{
+	margin: 0 0 0 247px;
+	background-color: #add136;
+	display: inline-block;
+	
+	border-radius: 7px;
+}
+
+/* 
+.blocks {
+	width: 100%;
+	max-height: 305px;
+	display: inline-block;
+}
+
+/* .block1, .block2 h4{
+	font-family: "montserrat";
+	font-size: 23px;
+	font-weight: 600;
+	color: #515151;
+	text-transform: capitalize;
+	padding: 45px 50px 70px 320px;
+}
+.block1, .block2 p {
+	font-size: 17px;
+	font-weight: normal;
+	color: #515151;
+	padding: 45px 50px 70px 320px;
+}
+
+.block a{
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: white;
+} */
+
+/* .block1 {
+	max-width: 650px;
+	max-height: 305px; */
+/* display: inline-block; */
+/* background-color: #e2f8ff;
+overflow: auto;
+/* vertical-align: top; */
+}
+
+/* .buttomblock1 {}
+
+.block2 {
+	max-width: 650px;
+		max-height: 305px;
+		overflow: auto;
+	display: inline-block;
+	background-color: #f5f9eb; */ */
+	/* vertical-align: top; */
+} 
+/* 
+.buttomblock2 {} */
+
+.text3 {}
+
+.buttomtext3 {}
+
+.projects {}
+
+.project1 {}
+
+.imgproject1 {}
+
+.buttomproject {}
+
+.textproject {}
+
+.funded {}
+
+.days {}
+
+.details1 {}
+
+.project2 {}
+
+.imgproject2 {}
+
+.details2 {}
+
+.project3 {}
+
+.imgproject3 {}
+
+.details3 {}
+
+.text4 {}
+
+.H {}
+
+.comments {}
+
+.comment1 {}
+
+.cloud1 {}
+
+.comment2 {}
